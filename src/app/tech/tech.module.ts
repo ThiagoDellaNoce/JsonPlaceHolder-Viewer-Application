@@ -12,6 +12,7 @@ import { PostsComponent } from './posts/posts.component';
 import { AlbumsComponent } from './albums/albums.component';
 import { TodosComponent } from './todos/todos.component';
 import { HomeComponent } from './home/home.component';
+import { DialogPost } from './posts/detalhes/dialog-post';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,9 @@ import { HomeComponent } from './home/home.component';
     HomeComponent,
     PostsComponent,
     AlbumsComponent,
-    TodosComponent
+    TodosComponent,
+
+    DialogPost
   ],
   imports: [
     CommonModule,
@@ -28,6 +31,7 @@ import { HomeComponent } from './home/home.component';
     HttpClientModule,
     AngularMaterialModule,
     TechRoutingModule
-  ]
+  ],
+  entryComponents: [DialogPost],
 })
 export class TechModule { }

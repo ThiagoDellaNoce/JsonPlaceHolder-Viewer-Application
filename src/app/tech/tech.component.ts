@@ -7,11 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TechComponent implements OnInit {
   
-  screenName = "Home";
+  screenTitle = "Home";
   
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() { }
+
+  changeTitle(title) {
+    this.screenTitle = title;
   }
 
 }

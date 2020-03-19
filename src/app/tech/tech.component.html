@@ -4,15 +4,15 @@
     <mat-icon>menu</mat-icon>
   </button>  
   <mat-menu #menu="matMenu">
-    <a [routerLink]="['/home']"><button mat-menu-item>Home</button></a>
-    <a [routerLink]="['/posts']"><button mat-menu-item>Postagens</button></a>
-    <a [routerLink]="['/albuns']"><button mat-menu-item>Albuns</button></a>
-    <a [routerLink]="['/todos']"><button mat-menu-item>To-dos</button></a>
+    <a [routerLink]="['/home']" (click)="changeTitle('Home')"><button mat-menu-item>Home</button></a>
+    <a [routerLink]="['/posts']" (click)="changeTitle('Postagens')"><button mat-menu-item>Postagens</button></a>
+    <a [routerLink]="['/albuns']" (click)="changeTitle('Albuns')"><button mat-menu-item>Albuns</button></a>
+    <a [routerLink]="['/todos']" (click)="changeTitle('To-dos')"><button mat-menu-item>To-dos</button></a>
   </mat-menu>
   
   <span class="example-fill-remaining-space"></span>
   
-  <span>{{ screenName }}</span>
+  <span>{{ screenTitle }}</span>
 
 </mat-toolbar>
   
