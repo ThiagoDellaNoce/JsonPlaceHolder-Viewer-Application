@@ -1,19 +1,2 @@
-<mat-toolbar color="primary">
 
-  
-  <!-- <span>Right Aligned Text</span> -->
-  <button mat-button [matMenuTriggerFor]="menu">
-    <mat-icon>menu</mat-icon>
-  </button>
-  
-  <mat-menu #menu="matMenu">
-    <button mat-menu-item>Postagens</button>
-    <button mat-menu-item>Albuns</button>
-    <button mat-menu-item>To-dos</button>
-  </mat-menu>
-  
-  <!-- This fills the remaining space of the current row -->
-  <span class="example-fill-remaining-space"></span>
-  
-  <span>{{ screenName }}</span>
-</mat-toolbar>
+  <router-outlet></router-outlet> 
