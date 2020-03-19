@@ -1,16 +1,20 @@
-<h1 mat-dialog-title>{{ post.title }}</h1>
+<h1 mat-dialog-title>{{ dialogData.post.title }}</h1>
 
 <div mat-dialog-content>
-    <p>{{ post.body }}</p>
+  <p>{{ dialogData.post.body }}</p>
 </div>
+
+<hr>
 
 <mat-list>
   <div mat-subheader>Comentários</div>
-    <mat-list-item>
-      <h3 matLine> Body </h3>
+    <mat-list-item *ngFor="let comment of dialogData.comments">
+      <h3 matLine style="font-weight: bold;"> {{ comment.body }} </h3>
       <p matLine>
-        <span> Nome </span>
-        <span class="demo-2"> -- Email </span>
+        <span> {{ comment.name }} </span>
+      </p>
+      <p matLine>
+        <span>{{ comment.email }} </span>
       </p>
     </mat-list-item>
 </mat-list>

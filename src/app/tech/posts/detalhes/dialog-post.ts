@@ -1,8 +1,7 @@
 import { Component, Inject } from '@angular/core';
 
 import {MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
-
-import { Post } from 'src/app/models/post';
+import { DialogData } from 'src/app/models/dialogData';
 
 @Component({
     selector: 'dialog-post',
@@ -11,13 +10,12 @@ import { Post } from 'src/app/models/post';
 
 export class DialogPost {
   
-    constructor(
-        public dialogRef: MatDialogRef<DialogPost>,
-        @Inject(MAT_DIALOG_DATA) public post: Post
-    ) {}
+    constructor( public dialogRef: MatDialogRef<DialogPost>,
+        @Inject(MAT_DIALOG_DATA) public dialogData: DialogData) {
+
+    }
   
     onNoClick(): void {
         this.dialogRef.close();
     }
-  
 }

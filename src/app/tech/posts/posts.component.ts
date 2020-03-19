@@ -2,9 +2,9 @@ import { Component, OnInit } from '@angular/core';
 
 import { MatDialog } from '@angular/material/dialog';
 import { DialogPost } from './detalhes/dialog-post';
-import { Overlay } from '@angular/cdk/overlay';
 
 import { Post } from 'src/app/models/post';
+import { PostService } from 'src/app/services/post.service';
 
 @Component({
   selector: 'app-posts',
@@ -13,33 +13,49 @@ import { Post } from 'src/app/models/post';
 })
 export class PostsComponent implements OnInit {
 
-  title: string = "Title";
-  body: string = "Body";
+  data: any;
+  
+  post: Post;
+  posts: Post[];
 
-  post: Post = { title: this.title, body: this.body };
+  comment: Comment;
+  comments: Comment[];
 
-  constructor(public dialog: MatDialog, private overlay: Overlay) { }
+  constructor(private dialog: MatDialog,
+              private postService: PostService) {
 
-  ngOnInit() { }
+  }
 
-  openDialog(): void {
-    const dialogRef = this.dialog.open(DialogPost, {
-      width: '90%',
-      autoFocus: false,
-      maxHeight: '90vh',
-      data: this.post,
-    });
+  ngOnInit() { 
+    this.postService.getPosts().subscribe(
+      res => {
+        this.data = res;
 
-    dialogRef.afterClosed().subscribe(result => {
-      console.log(result);
-    });
+        this.posts = this.data
+      },
+      err => { }
+    );
+  }
+
+  openDialog(post: Post): void {
+    const postId = post.id
+
+    this.postService.getComments(postId).subscribe(
+      res => {
+        this.data = res
+        let comments = this.data
+
+        const dialogData = { post, comments }
+
+        this.dialog.open(DialogPost, {
+          width: '90%',
+          autoFocus: false,
+          maxHeight: '90vh',
+          data: dialogData,
+        });
+
+      },
+      err => { }
+    )
   }
 }
-
-
-
-
-
-
-
-

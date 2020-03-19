@@ -1,8 +1,8 @@
 <div>
-    <mat-card class="card" (click)="openDialog()">
+    <mat-card class="card" *ngFor="let post of posts" (click)="openDialog(post)">
         <mat-card-header>
-            <mat-card-title>Title</mat-card-title>
-            <mat-card-subtitle>Body</mat-card-subtitle>
+            <mat-card-title>{{ post.title }}</mat-card-title>
+            <mat-card-subtitle>{{ post.body }}</mat-card-subtitle>
         </mat-card-header>
     </mat-card>
 </div>
