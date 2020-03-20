@@ -12,7 +12,6 @@ export class TechComponent implements OnInit {
   constructor(private router: Router) {};
 
   ngOnInit() {
-
     switch (this.router.url) {
       case "/":
         this.changeTitle("Home");
