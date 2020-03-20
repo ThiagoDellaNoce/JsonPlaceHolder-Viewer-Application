@@ -1,0 +1,70 @@
+.container-fluid.main {
+  padding: 0;
+  height: 100%;
+  background-color: #673ab7 !important;
+}
+
+.covertext {
+  position: absolute;
+  top: 200px;
+  left: 0px;
+  right: 0px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 48px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.title-b {
+  color: #fdba83;
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.subtitle a {
+  color: #fdba83;
+}
+
+.explore {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.explore .btn-lg,
+.explore .btn-lg:hover {
+  padding: 15px 25px;
+  font-size: 22px;
+  background-image: none;
+  background-color: #fdba83;
+  border-color: #fdba83;
+  color: #ffffff;
+}
+
+.btn,
+.btn:hover {
+  border-radius: 0px;
+  background-image: none;
+  background-color: #fdba83;
+  border-color: #fdba83;
+  color: #ffffff;
+  margin-bottom: 20px;
+  box-shadow: none;
+  outline: none;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  color: #ffffff;
+  outline: none;
+}
