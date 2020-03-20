@@ -1,8 +1,7 @@
 import { Routes, RouterModule } from "@angular/router";
 import { NgModule } from "@angular/core";
-import { TechModule } from "./tech/tech.module";
 
-const appRoutes: Routes = [{ path: "", loadChildren: () => TechModule }];
+const appRoutes: Routes = [{ path: "", loadChildren: () => import('./tech/tech.module').then(m => m.TechModule) }];
 
 @NgModule({
   imports: [RouterModule.forRoot(appRoutes, { useHash: true })],

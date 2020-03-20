@@ -15,7 +15,7 @@ const eventosRoutes = [
     children: [
       { path: "", component: HomeComponent },
       { path: "posts", component: PostsComponent },
-      { path: "albuns", loadChildren: () => AlbumsModule },
+      { path: "albuns", loadChildren: () => import('./albums/albums.module').then(m => m.AlbumsModule) },
       { path: "todos", component: TodosComponent },
       { path: "**", component: HomeComponent }
     ]
