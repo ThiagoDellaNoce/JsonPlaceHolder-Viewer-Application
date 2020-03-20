@@ -19,7 +19,6 @@ export class PhotosComponent implements OnInit {
 
   constructor(private route: ActivatedRoute,
               private albumsService: AlbumService) {
-
   }
 
   ngOnInit() {
@@ -34,8 +33,6 @@ export class PhotosComponent implements OnInit {
             this.data = res;
     
             this.photos = this.data;
-            console.log(this.photos);
-
           },
           err => { }
         );

@@ -1,13 +1,13 @@
 <div style="background-color: #fff;">
     <mat-list>
         <div mat-subheader>To-do's</div>
-        <mat-list-item>
-            <div mat-line>Title</div>
+        <mat-list-item *ngFor="let todo of todos">
+            <div mat-line>{{ todo.title }}</div>
             <a mat-icon-button>
-                <mat-icon>check_circle</mat-icon>
-                <!-- <mat-icon>check_circle_outline</mat-icon> -->
+                <mat-icon *ngIf="todo.completed">check_circle</mat-icon>
+                <mat-icon *ngIf="!todo.completed">check_circle_outline</mat-icon>
             </a>
+            <mat-divider></mat-divider>
         </mat-list-item>
-        <mat-divider></mat-divider>
     </mat-list>
 </div>
