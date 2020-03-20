@@ -7,6 +7,8 @@ import { AngularMaterialModule } from "./angular-material/angular-material.modul
 
 import { HttpClientModule } from "@angular/common/http";
 import { AppRoutingModule } from "./app.routing.module";
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,7 +19,9 @@ import { AppRoutingModule } from "./app.routing.module";
     BrowserAnimationsModule,
     AngularMaterialModule,
 
-    HttpClientModule
+    HttpClientModule,
+
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA]
