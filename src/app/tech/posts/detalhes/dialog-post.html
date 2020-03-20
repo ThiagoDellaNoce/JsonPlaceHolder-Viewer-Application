@@ -8,16 +8,16 @@
 
 <mat-list>
   <div mat-subheader>Comentários</div>
-    <mat-list-item *ngFor="let comment of dialogData.comments">
-      <h3 matLine style="font-weight: bold;"> {{ comment.body }} </h3>
-      
-      <p matLine><span> {{ comment.name }} </span></p>
-      <p matLine><span>{{ comment.email }} </span></p>
-      
-      <mat-divider></mat-divider>
-    
-    </mat-list-item>
-    <div style="float: right;" mat-dialog-actions>
-      <button mat-button mat-raised-button (click)="onNoClick()">Fechar</button>
-    </div>
+  <mat-list-item *ngFor="let comment of dialogData.comments">
+    <h3 matLine style="font-weight: bold;"> {{ comment.body }} </h3>
+
+    <p matLine><span> {{ comment.name }} </span></p>
+    <p matLine><span>{{ comment.email }} </span></p>
+
+    <mat-divider></mat-divider>
+
+  </mat-list-item>
+  <div style="float: right;" mat-dialog-actions>
+    <button mat-button mat-raised-button (click)="onNoClick()">Fechar</button>
+  </div>
 </mat-list>

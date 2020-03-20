@@ -1,28 +1,26 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
 
-import { RouterModule } from '@angular/router';
-import { HttpClientModule } from '@angular/common/http';
-import { AngularMaterialModule } from '../angular-material/angular-material.module';
+import { RouterModule } from "@angular/router";
+import { HttpClientModule } from "@angular/common/http";
+import { AngularMaterialModule } from "../angular-material/angular-material.module";
 
-import { TechComponent } from './tech.component';
+import { TechRoutingModule } from "./tech.routing.module";
 
-import { TechRoutingModule } from './tech.routing.module';
-import { PostsComponent } from './posts/posts.component';
-import { AlbumsComponent } from './albums/albums.component';
-import { TodosComponent } from './todos/todos.component';
-import { HomeComponent } from './home/home.component';
-import { DialogPost } from './posts/detalhes/dialog-post';
+import { TechComponent } from "./tech.component";
+import { HomeComponent } from "./home/home.component";
+import { PostsComponent } from "./posts/posts.component";
+import { DialogPost } from "./posts/detalhes/dialog-post";
+import { TodosComponent } from "./todos/todos.component";
 
 @NgModule({
   declarations: [
     TechComponent,
-    
+
     HomeComponent,
     PostsComponent,
-    TodosComponent,
-
-    DialogPost
+    DialogPost,
+    TodosComponent
   ],
   imports: [
     CommonModule,
@@ -31,6 +29,6 @@ import { DialogPost } from './posts/detalhes/dialog-post';
     AngularMaterialModule,
     TechRoutingModule
   ],
-  entryComponents: [DialogPost],
+  entryComponents: [DialogPost]
 })
-export class TechModule { }
+export class TechModule {};

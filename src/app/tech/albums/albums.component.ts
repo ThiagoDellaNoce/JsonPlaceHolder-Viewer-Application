@@ -1,21 +1,20 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
-import { Album } from 'src/app/models/album';
-import { AlbumService } from 'src/app/services/album.service';
+import { Album } from "src/app/models/album";
+import { AlbumService } from "src/app/services/album.service";
 
 @Component({
-  selector: 'app-albums',
-  templateUrl: './albums.component.html',
-  styleUrls: ['./albums.component.scss']
+  selector: "app-albums",
+  templateUrl: "./albums.component.html",
+  styleUrls: ["./albums.component.scss"]
 })
 export class AlbumsComponent implements OnInit {
-
   data: any;
 
   album: Album;
   albums: Album[];
 
-  constructor( private albumService: AlbumService) { }
+  constructor(private albumService: AlbumService) {}
 
   ngOnInit() {
     this.albumService.getAlbums().subscribe(
@@ -24,8 +23,7 @@ export class AlbumsComponent implements OnInit {
 
         this.albums = this.data;
       },
-      err => { }
+      err => {}
     );
-  }
-
-}
+  };
+};

@@ -1,5 +1,5 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
 
 import {
   MatButtonModule,
@@ -10,7 +10,7 @@ import {
   MatDialogModule,
   MatListModule,
   MatGridListModule
-} from '@angular/material';
+} from "@angular/material";
 
 @NgModule({
   imports: [
@@ -39,5 +39,4 @@ import {
     MatGridListModule
   ]
 })
-
-export class AngularMaterialModule { }
+export class AngularMaterialModule {}

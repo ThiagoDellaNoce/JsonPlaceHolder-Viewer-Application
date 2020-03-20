@@ -1,7 +1,7 @@
-import { Post } from './post';
-import { Comment } from './comment';
+import { Post } from "./post";
+import { Comment } from "./comment";
 
 export interface DialogData {
-    post: Post,
-    comment: Comment
-}
+  post: Post;
+  comments: Comment;
+};

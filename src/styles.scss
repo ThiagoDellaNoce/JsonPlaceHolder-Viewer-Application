@@ -1,20 +1,21 @@
-@import 'https://fonts.googleapis.com/icon?family=Material+Icons';
-@import '~@angular/material/prebuilt-themes/deeppurple-amber.css'; 
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+@import "~@angular/material/prebuilt-themes/deeppurple-amber.css";
 
 /* You can add global styles to this file, and also import other style files */
-html, body { 
-    height: 100%; 
-};
+html,
+body {
+  height: 100%;
+}
 
-body { 
-    margin: 0; 
-    font-family: Roboto, "Helvetica Neue", sans-serif; 
-    background-color: #00000017; 
-};
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-color: #00000017;
+}
 
 // APP COMPONENT
 .example-fill-remaining-space {
-/* This fills the remaining space, by using flexbox. 
+  /* This fills the remaining space, by using flexbox. 
     Every toolbar row uses a flexbox row layout. */
-    flex: 0 1;
-};
+  flex: 0 1;
+}

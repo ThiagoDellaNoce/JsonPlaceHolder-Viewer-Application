@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { ActivatedRoute, Router } from '@angular/router';
+import { Router } from "@angular/router";
 
 @Component({
   selector: "app-tech",
@@ -7,17 +7,13 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ["./tech.component.scss"]
 })
 export class TechComponent implements OnInit {
-  screenTitle = "Home";
+  screenTitle: string = "Home";
 
-  constructor(
-    private route: ActivatedRoute,
-    private router: Router
-  ) {}
+  constructor(private router: Router) {};
 
   ngOnInit() {
-    console.log(this.router.url)
 
-    switch(this.router.url) {
+    switch (this.router.url) {
       case "/":
         this.changeTitle("Home");
         break;
@@ -36,12 +32,10 @@ export class TechComponent implements OnInit {
       default:
         this.changeTitle("Albuns");
         break;
-      
-    }
-  }
+    };
+  };
 
   changeTitle(title) {
     this.screenTitle = title;
-    console.log(this.router.url)
-  }
-}
+  };
+};
