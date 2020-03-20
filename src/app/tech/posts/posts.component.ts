@@ -40,7 +40,7 @@ export class PostsComponent implements OnInit {
   openDialog(post: Post): void {
     const postId = post.id
 
-    this.postService.getComments(postId).subscribe(
+    this.postService.getCommentsByPost(postId).subscribe(
       res => {
         this.data = res
         let comments = this.data

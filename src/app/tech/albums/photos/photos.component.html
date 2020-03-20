@@ -1,0 +1,10 @@
+<div style="width: 50%;float: left;" *ngFor="let photo of photos">
+    <mat-card style="margin: 10px; min-height: 250px !important;">
+        <a href="{{ photo.url }}" target="_blank">
+            <img class="card" mat-card-image src="{{ photo.thumbnailUrl }}" alt="title">
+        </a>
+        <mat-card-content>
+            <p>{{ photo.title }}</p>
+        </mat-card-content>
+    </mat-card>
+</div>

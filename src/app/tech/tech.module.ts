@@ -20,7 +20,6 @@ import { DialogPost } from './posts/detalhes/dialog-post';
     
     HomeComponent,
     PostsComponent,
-    AlbumsComponent,
     TodosComponent,
 
     DialogPost

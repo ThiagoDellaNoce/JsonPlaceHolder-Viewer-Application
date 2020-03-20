@@ -5,15 +5,16 @@ import { TechComponent } from './tech.component';
 
 import { HomeComponent } from './home/home.component';
 import { PostsComponent } from './posts/posts.component';
-import { AlbumsComponent } from './albums/albums.component';
 import { TodosComponent } from './todos/todos.component';
+
+import { AlbumsModule } from './albums/albums.module';
 
 const eventosRoutes = [
     { path: '', component: TechComponent,
         children:[
             { path: '', component: HomeComponent },
             { path: 'posts', component: PostsComponent },
-            { path: 'albuns', component: AlbumsComponent },
+            { path: 'albuns', loadChildren: () => AlbumsModule },
             { path: 'todos', component: TodosComponent },
             { path: '**', component: HomeComponent }
         ] }

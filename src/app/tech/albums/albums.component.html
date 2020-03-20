@@ -1,10 +1,10 @@
 <div style="background-color: #fff;">
     <mat-list>
         <div mat-subheader>Albuns</div>
-        <mat-list-item>
+        <mat-list-item *ngFor="let album of albums">
             <mat-icon mat-list-icon>photo_library</mat-icon>
-            <div mat-line>Title</div>
-            <a mat-icon-button>
+            <div mat-line>{{ album.title }}</div>
+            <a routerLink="/albuns/{{album.id}}/fotos" mat-icon-button>
                 <mat-icon>keyboard_arrow_right</mat-icon>
             </a>
         </mat-list-item>

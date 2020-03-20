@@ -4,19 +4,19 @@ import { HttpClient } from '@angular/common/http';
 @Injectable({
   providedIn: 'root'
 })
-export class PostService {
-
+export class AlbumService {
   apiURL: string = "https://jsonplaceholder.typicode.com/";
 
   constructor(private http:HttpClient) { 
+
   }
 
-  getPosts()  {
-    return this.http.get(this.apiURL +'posts/');
+  getAlbums()  {
+    return this.http.get(this.apiURL + 'albums');
   }
   
-  getCommentsByPost(postId: number) {
-    return this.http.get(this.apiURL +'comments?postId=' + postId);
+  getPhotos(albumId: number) {
+    return this.http.get(this.apiURL + 'photos?albumId=' + albumId);
   }
-
+  
 }
