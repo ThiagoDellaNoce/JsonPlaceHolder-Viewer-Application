@@ -15,9 +15,9 @@ https://testtechfrwk.herokuapp.com/#/
 ### :dart: Objetivos
 #### :star: A aplicação deve conter os menus e/os páginas:
 
-[X] POSTAGENS (post - https://jsonplaceholder.typicode.com/posts) 
-[X] ALBUNS (albums - https://jsonplaceholder.typicode.com/albums)
-[X] TO-DOs (todos - https://jsonplaceholder.typicode.com/albums)
+[x] POSTAGENS (post - https://jsonplaceholder.typicode.com/posts) 
+[x] ALBUNS (albums - https://jsonplaceholder.typicode.com/albums)
+[x] TO-DOs (todos - https://jsonplaceholder.typicode.com/albums)
 
 #### :bulb: Desenvolvimento
 
