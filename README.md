@@ -16,8 +16,9 @@ https://testtechfrwk.herokuapp.com/#/
 #### :star: A aplicação deve conter os menus e/os páginas:
 
 - [x] POSTAGENS (post - https://jsonplaceholder.typicode.com/posts) 
+      - [x] COMENTÁRIOS (comments - https://jsonplaceholder.typicode.com/comments?postId=1)
 - [x] ALBUNS (albums - https://jsonplaceholder.typicode.com/albums)
-- [x] TO-DOs (todos - https://jsonplaceholder.typicode.com/albums)
+- [x] TO-DOs (todos - https://jsonplaceholder.typicode.com/todos)
 
 #### :bulb: Desenvolvimento
 
