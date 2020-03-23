@@ -1,4 +1,4 @@
-# Techtest 
+# :point_right: Techtest 
 ## :pushpin: Front-end Framework
 
 Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
