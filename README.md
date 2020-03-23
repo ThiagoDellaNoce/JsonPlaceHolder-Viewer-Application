@@ -1,7 +1,7 @@
 # :point_right: Techtest 
 ## :pushpin: Front-end Framework
 
-Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
+Projeto desenvolvido por Thiago Della Noce, para teste técnico de front-end para empresa Framework.
 
 ## :loudspeaker: Proposta do projeto
 
