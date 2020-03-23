@@ -13,7 +13,7 @@ O projeto desenvolvido está disponível para visualização no link:
 https://testtechfrwk.herokuapp.com/#/ 
 
 ### :dart: Objetivos
-#### :exclamation: A aplicação deve conter os menus e/os páginas:
+#### :star: A aplicação deve conter os menus e/os páginas:
 
 - POSTAGENS (post - https://jsonplaceholder.typicode.com/posts) 
  - ALBUNS (albums - https://jsonplaceholder.typicode.com/albums)
