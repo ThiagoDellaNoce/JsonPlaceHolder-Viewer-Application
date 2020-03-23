@@ -50,6 +50,6 @@ O aplicativo será carregado automaticamente, e irá recarregar se você alterar
 
 Rode `ng test` para executar os testes unitários via [Karma](https://karma-runner.github.io).
 
-## Mais ajuda
+## :grey_question: Mais ajuda
 
 Para obter mais ajuda na CLI Angular, use `ng help` ou vá para o [Angular CLI README] (https://github.com/angular/angular-cli/blob/master/README.md).
