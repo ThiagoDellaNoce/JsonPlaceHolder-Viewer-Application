@@ -17,7 +17,10 @@ https://testtechfrwk.herokuapp.com/#/
 
 - [x] POSTAGENS (post - https://jsonplaceholder.typicode.com/posts) 
   - [x] COMENTÁRIOS (comments - https://jsonplaceholder.typicode.com/comments?postId=1)
+  
 - [x] ALBUNS (albums - https://jsonplaceholder.typicode.com/albums)
+  - [x] FOTOS (photos - https://jsonplaceholder.typicode.com/photos?albumId=1)
+
 - [x] TO-DOs (todos - https://jsonplaceholder.typicode.com/todos)
 
 #### :bulb: Desenvolvimento
@@ -45,8 +48,10 @@ Rode `npm install` para instalar as dependências do projeto.
 ## :computer: Servidor de desenvolvimento
 
 Rode `ng serve` para subir servidor para desenvolvimento. 
+
 Navegue até `http://localhost:4200/`. 
-O aplicativo será carregado automaticamente, e irá recarregar se você alterar qualquer um dos arquivos de origem.
+
+*O aplicativo será carregado automaticamente, e irá recarregar se você alterar qualquer um dos arquivos de origem.
 
 ## :microscope: Testes
 
