@@ -33,7 +33,7 @@ Foram feitos estudos sobre a API, para captação das melhores informações par
 7. Ligação dos serviços aos layouts
 8. Tornando a aplicação Progressive Web App
 9. Deploy da aplicação na nuvem com (Heroku)
-10.Criação da documentação do projeto utilizando o ReadME, no github
+10. Criação da documentação do projeto utilizando o ReadME, no github
 
 
 ## Instalando o projeto
