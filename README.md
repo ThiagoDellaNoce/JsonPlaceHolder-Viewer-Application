@@ -46,7 +46,7 @@ Rode `ng serve` para subir servidor para desenvolvimento.
 Navegue até `http://localhost:4200/`. 
 O aplicativo será carregado automaticamente, e irá recarregar se você alterar qualquer um dos arquivos de origem.
 
-## Testes
+## :microscope: Testes
 
 Rode `ng test` para executar os testes unitários via [Karma](https://karma-runner.github.io).
 
