@@ -1,9 +1,9 @@
 # Techtest 
-## Front-end Framework
+## :pushpin: Front-end Framework
 
 Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
 
-## Proposta do projeto
+## :bulb: Proposta do projeto
 
 Construa uma aplicação WEB que irá utilizar as listagens de uma API Rest.
 API a ser utilizada está publicada em (https://jsonplaceholder.typicode.com/).
@@ -36,11 +36,11 @@ Foram feitos estudos sobre a API, para captação das melhores informações par
 10. Criação da documentação do projeto utilizando o ReadME, no github
 
 
-## Instalando o projeto
+## :rocket: Instalando o projeto
 
 Rode `npm install` para instalar as dependências do projeto.
 
-## Servidor de desenvolvimento
+## :computer: Servidor de desenvolvimento
 
 Rode `ng serve` para subir servidor para desenvolvimento. 
 Navegue até `http://localhost:4200/`. 
