@@ -14,11 +14,26 @@ https://testtechfrwk.herokuapp.com/#/
 
 ### Objetivos
 #### A aplicação deve conter os menus e/os páginas:
-POSTAGENS (post - https://jsonplaceholder.typicode.com/posts) 
-ALBUNS (albums - https://jsonplaceholder.typicode.com/albums)
-TO-DOs (todos - https://jsonplaceholder.typicode.com/albums)
-Especificações
+
+- POSTAGENS (post - https://jsonplaceholder.typicode.com/posts) 
+ - ALBUNS (albums - https://jsonplaceholder.typicode.com/albums)
+ - TO-DOs (todos - https://jsonplaceholder.typicode.com/albums)
+
+#### Especificações
+
 Foram feitos estudos sobre a API, para captação das melhores informações para exibir na aplicação, com um trabalho de arquitetura da informação, foram elaborados protótipos no papel e na ferramenta Adobe XD para serem usados como Wireframes no momento do desenvolvimento. Foi desenvolvido em Angular na versão 8. E para o deploy foi usado o Heroku.
+
+#### Marcos
+1. Estudo da API
+2. Prototipação (papel)
+3. Prototipação (Adobe XD)
+4. Desenvolvimento das rotas
+5. Desenvolvimento dos layouts
+6. Desenvolvimento dos serviços
+7. Ligação dos serviços aos layouts
+8. Tornando a aplicação Progressive Web App
+9. Deploy da aplicação na nuvem com (Heroku)
+10.Criação da documentação do projeto utilizando o ReadME, no github
 
 
 ## Instalando o projeto
