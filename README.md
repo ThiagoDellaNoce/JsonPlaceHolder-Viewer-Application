@@ -30,15 +30,15 @@ https://testtechfrwk.herokuapp.com/#/
 - E para o deploy foi usado o Heroku.
 
 #### :clipboard: Marcos
-1. Estudo da API
-2. Prototipação (papel)
-3. Prototipação (Adobe XD)
-4. Desenvolvimento das rotas
-5. Desenvolvimento dos layouts
-6. Desenvolvimento dos serviços
-7. Ligação dos serviços aos layouts
-8. Tornando a aplicação Progressive Web App
-9. Deploy da aplicação na nuvem com (Heroku)
+**1.** Estudo da API
+**2.** Prototipação (papel)
+**3.** Prototipação (Adobe XD)
+**4.** Desenvolvimento das rotas
+**5.** Desenvolvimento dos layouts
+**6.** Desenvolvimento dos serviços
+**7.** Ligação dos serviços aos layouts
+**8.** Tornando a aplicação Progressive Web App
+**9.** Deploy da aplicação na nuvem com (Heroku)
 10. Criação da documentação do projeto utilizando o ReadME, no github
 
 ## :rocket: Instalando o projeto
