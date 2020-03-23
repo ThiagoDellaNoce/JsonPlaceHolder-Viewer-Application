@@ -19,9 +19,11 @@ https://testtechfrwk.herokuapp.com/#/
  - ALBUNS (albums - https://jsonplaceholder.typicode.com/albums)
  - TO-DOs (todos - https://jsonplaceholder.typicode.com/albums)
 
-#### :bulb: Especificações
+#### :bulb: Desenvolvimento
 
-Foram feitos estudos sobre a API, para captação das melhores informações para exibir na aplicação, com um trabalho de arquitetura da informação, foram elaborados protótipos no papel e na ferramenta Adobe XD para serem usados como Wireframes no momento do desenvolvimento. Foi desenvolvido em Angular na versão 8. E para o deploy foi usado o Heroku.
+- Foram feitos estudos sobre a API, para captação das melhores informações para exibir na aplicação, com um trabalho de arquitetura da informação, foram elaborados protótipos no papel e na ferramenta Adobe XD para serem usados como Wireframes no momento do desenvolvimento. 
+- Foi utilizado o Angular na versão 8 e o Material Angular para desenvolvimento da aplicação. 
+- E para o deploy foi usado o Heroku.
 
 #### :clipboard: Marcos
 1. Estudo da API
@@ -34,7 +36,6 @@ Foram feitos estudos sobre a API, para captação das melhores informações par
 8. Tornando a aplicação Progressive Web App
 9. Deploy da aplicação na nuvem com (Heroku)
 10. Criação da documentação do projeto utilizando o ReadME, no github
-
 
 ## :rocket: Instalando o projeto
 
