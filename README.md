@@ -12,8 +12,8 @@ Utilizando ANGULAR, junto com Angular Material (https://material.angular.io/) pa
 O projeto desenvolvido está disponível para visualização no link:
 https://testtechfrwk.herokuapp.com/#/ 
 
-### Objetivos
-#### :dart: A aplicação deve conter os menus e/os páginas:
+### :dart: Objetivos
+#### A aplicação deve conter os menus e/os páginas:
 
 - POSTAGENS (post - https://jsonplaceholder.typicode.com/posts) 
  - ALBUNS (albums - https://jsonplaceholder.typicode.com/albums)
