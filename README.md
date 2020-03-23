@@ -3,7 +3,7 @@
 
 Esse projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
 
-## :bulb: Proposta do projeto
+## :loudspeaker: Proposta do projeto
 
 Construa uma aplicação WEB que irá utilizar as listagens de uma API Rest.
 API a ser utilizada está publicada em (https://jsonplaceholder.typicode.com/).
@@ -13,17 +13,17 @@ O projeto desenvolvido está disponível para visualização no link:
 https://testtechfrwk.herokuapp.com/#/ 
 
 ### Objetivos
-#### A aplicação deve conter os menus e/os páginas:
+#### :dart: A aplicação deve conter os menus e/os páginas:
 
 - POSTAGENS (post - https://jsonplaceholder.typicode.com/posts) 
  - ALBUNS (albums - https://jsonplaceholder.typicode.com/albums)
  - TO-DOs (todos - https://jsonplaceholder.typicode.com/albums)
 
-#### Especificações
+#### :bulb: Especificações
 
 Foram feitos estudos sobre a API, para captação das melhores informações para exibir na aplicação, com um trabalho de arquitetura da informação, foram elaborados protótipos no papel e na ferramenta Adobe XD para serem usados como Wireframes no momento do desenvolvimento. Foi desenvolvido em Angular na versão 8. E para o deploy foi usado o Heroku.
 
-#### Marcos
+#### :clipboard: Marcos
 1. Estudo da API
 2. Prototipação (papel)
 3. Prototipação (Adobe XD)
