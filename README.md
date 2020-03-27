@@ -1,7 +1,4 @@
-# :point_right: Techtest 
-## :pushpin: Front-end Framework
-
-Projeto desenvolvido por [Thiago Della Noce](https://www.linkedin.com/in/thiagodellanoce/), para teste técnico de front-end para empresa [Framework](https://frwk.com.br/).
+# :point_right: JsonPlaceHolder Viewer Application 
 
 ## :loudspeaker: Proposta do projeto
 
